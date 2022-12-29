@@ -1,4 +1,4 @@
-self.importScripts('./cmdkitTool.js');
+self.importScripts('https://cdn.jsdelivr.net/gh/yuandaozhe/cmdkit/code/ff/cmdkitTool.js');
 const kTransLog = 4;
 const kTransInfo2 = 5;
 
