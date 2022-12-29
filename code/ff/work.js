@@ -1,13 +1,7 @@
 self.importScripts('./cmdkitTool.js');
 const kTransLog = 4;
 const kTransInfo2 = 5;
-console.log = function (str) {
-    var objData = {
-        t: kTransLog,
-        d: str
-    };
-    self.postMessage(objData);
-};
+
 function onInit() {
     self.onCallback = Module.addFunction(function (buff, size) {
         var outArray = Module.HEAPU8.subarray(buff, buff + size);
